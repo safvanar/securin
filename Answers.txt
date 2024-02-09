@@ -1,0 +1,20 @@
+DOOMED DICE PROBLEM:
+
+PART A
+
+1. Each face of Die A can be paired with each face of Die B. So in order to get the total number of combinations,
+   We just need to multiply the number of faces.
+   Hence, 
+   total combinations = number of faces on Die A * number of faces on Die B = 6 * 6 = 36
+
+2. In order to represent the distribution of all possible combination, we can use a 6 * 6 matrix.
+   Where (i,j)th entry will represent the combination sum obtained by rolling Die A with value i and rolling Die B
+   with value j.
+   
+3. To find the probability of a particular combination of two dice values, We can divide the number of favourable cases 
+   by the total number of combinations, that is 36.
+   For example, probability of getting a sum of 3 is 2/36 since the number of favourable combinations are (1,2) and (2,1)
+   only.
+
+PART B 
+
